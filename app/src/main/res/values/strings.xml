@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Faenza Tour Guide</string>
+    <string name="museums">Museums</string>
+    <string name="places">Places of interest</string>
+    <string name="shopping">Shopping</string>
+    <string name="activities">Nightlife</string>
+
+</resources>

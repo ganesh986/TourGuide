@@ -1,0 +1,22 @@
+<resources>
+    <!-- Category Tab Text -->
+    <dimen name="textSize_categoryTabText">10sp</dimen>
+    <!-- Card -->
+    <dimen name="cornerRadius">4dp</dimen>
+    <dimen name="marginLeftRight">8dp</dimen>
+    <dimen name="marginTopBottom">4dp</dimen>
+
+    <!-- Item Images -->
+    <dimen name="height_width_Image">90dp</dimen>
+
+    <!-- Text -->
+    <dimen name="minHeight_Containers">90dp</dimen>
+    <dimen name="padding_Text">8dp</dimen>
+
+    <!-- Icons -->
+    <dimen name="padding_Icons">4dp</dimen>
+
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+
+</resources>
