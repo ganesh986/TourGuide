@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        // Find the View that shows the numbers category
-        TextView numbers = (TextView) findViewById(R.id.numbers);
+        // Find the View that shows the museum category
+        TextView museum = (TextView) findViewById(R.id.museum);
 
         // Set a click listener on that View
-        numbers.setOnClickListener(new View.OnClickListener() {
+        museum.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the Museums View is clicked on.
             @Override
             public void onClick(View view) {
@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the family category
-        TextView family = (TextView) findViewById(R.id.family);
+        // Find the View that shows the places category
+        TextView places = (TextView) findViewById(R.id.places);
 
         // Set a click listener on that View
-        family.setOnClickListener(new View.OnClickListener() {
+        places.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the Places View is clicked on.
             @Override
             public void onClick(View view) {
@@ -56,11 +56,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the phrases category
-        TextView phrases = (TextView) findViewById(R.id.phrases);
+        // Find the View that shows the shopping category
+        TextView shopping = (TextView) findViewById(R.id.shopping);
 
         // Set a click listener on that View
-        phrases.setOnClickListener(new View.OnClickListener() {
+        shopping.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the shopping View is clicked on.
             @Override
             public void onClick(View view) {
@@ -69,11 +69,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the colors category
-        TextView colors = (TextView) findViewById(R.id.colors);
+        // Find the View that shows the activities category
+        TextView activities = (TextView) findViewById(R.id.activities);
 
         // Set a click listener on that View
-        colors.setOnClickListener(new View.OnClickListener() {
+        activities.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the activities View is clicked on.
             @Override
             public void onClick(View view) {

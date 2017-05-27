@@ -7,49 +7,49 @@
     android:orientation="vertical"
     tools:context="com.example.android.tourguide.MainActivity">
 
-    <!-- Numbers category -->
+    <!-- Museum category -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/tab">
         <TextView
-            android:id="@+id/numbers"
+            android:id="@+id/museum"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/museums" />
     </FrameLayout>
 
-    <!-- Family category -->
+    <!-- places category -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/tab">
         <TextView
-            android:id="@+id/family"
+            android:id="@+id/places"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/places" />
     </FrameLayout>
 
-    <!-- Colors category -->
+    <!-- shopping category -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/tab">
         <TextView
-            android:id="@+id/colors"
+            android:id="@+id/shopping"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/shopping" />
     </FrameLayout>
 
-    <!-- Phrases category -->
+    <!-- acitivity category -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/tab">
         <TextView
-            android:id="@+id/phrases"
+            android:id="@+id/activities"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/activities" />
