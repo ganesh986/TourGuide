@@ -27,7 +27,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/tan_background"
+                android:background="@color/category_museums"
                 android:gravity="center_horizontal"
                 android:weightSum="1">
 

@@ -2,10 +2,10 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#FD8E09</color>
 
     <!-- Background color for app -->
-    <color name="tan_background">#FFFF</color>
+    <color name="tan_background">#379237</color>
 
     <!-- Tab color in main Activity -->
     <color name="tab">#379237</color>
@@ -14,12 +14,12 @@
     <color name="category_museums">#FD8E09</color>
 
     <!-- Background color for the family members category -->
-    <color name="category_places">#379237</color>
+    <color name="category_places">#FD8E09</color>
 
     <!-- Background color for the colors category -->
-    <color name="category_activities">#8800A0</color>
+    <color name="category_activities">#FD8E09</color>
 
     <!-- Background color for the phrases category -->
-    <color name="category_shopping">#16AFCA</color>
+    <color name="category_shopping">#FD8E09</color>
 
 </resources>
