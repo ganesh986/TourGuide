@@ -58,15 +58,15 @@ public class InformationAdapter extends ArrayAdapter<Informations>  {
 
         // Find the TextView in the activity_item.xml layout with the address.
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.address);
-        addressTextView.setText(currentInfo.getPlaceDescription());
+        addressTextView.setText(currentInfo.getPlaceAddress());
 
         // Find the TextView in the activity_item.xml layout with the phone.
         TextView phoneTextView = (TextView) listItemView.findViewById(R.id.phone_number);
-        phoneTextView.setText(currentInfo.getPlaceDescription());
+        phoneTextView.setText(currentInfo.getPlacePhone());
 
         // Find the TextView in the activity_item.xml layout with the website.
         TextView websiteTextView = (TextView) listItemView.findViewById(R.id.website);
-        websiteTextView.setText(currentInfo.getPlaceDescription());
+        websiteTextView.setText(currentInfo.getPlaceWeb());
         
         // Set the theme color for the activity item
         View textContainer = listItemView.findViewById(R.id.item);
