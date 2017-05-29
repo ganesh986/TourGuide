@@ -1,57 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="fill_parent"
     android:layout_height="match_parent"
-    android:background="@color/tan_background"
-    android:orientation="vertical"
-    tools:context="com.example.android.tourguide.MainActivity">
+    android:background="@color/colorPrimary">
 
-    <!-- Museum category -->
-    <FrameLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/tab">
-        <TextView
-            android:id="@+id/museum"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/museums" />
-    </FrameLayout>
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        tools:context="com.example.android.tourguide.MainActivity">
 
-    <!-- places category -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/tab">
-        <TextView
-            android:id="@+id/places"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/places" />
-    </FrameLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/marginTopBottom"
+            android:layout_marginLeft="@dimen/marginLeftRight"
+            android:layout_marginRight="@dimen/marginLeftRight"
+            android:layout_marginTop="@dimen/marginTopBottom">
 
-    <!-- shopping category -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/tab">
-        <TextView
-            android:id="@+id/shopping"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/shopping" />
-    </FrameLayout>
+            <!-- Museum category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tab">
 
-    <!-- acitivity category -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/tab">
-        <TextView
-            android:id="@+id/activities"
-            style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:text="@string/activities" />
-    </FrameLayout>
-</LinearLayout>
+                <TextView
+                    android:id="@+id/museum"
+                    style="@style/CategoryStyle"
+                    android:background="@color/colorAccent"
+                    android:text="@string/museums" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/marginTopBottom"
+            android:layout_marginLeft="@dimen/marginLeftRight"
+            android:layout_marginRight="@dimen/marginLeftRight"
+            android:layout_marginTop="@dimen/marginTopBottom">
+
+            <!-- places category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tab">
+
+                <TextView
+                    android:id="@+id/places"
+                    style="@style/CategoryStyle"
+                    android:background="@color/colorAccent"
+                    android:text="@string/places" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/marginTopBottom"
+            android:layout_marginLeft="@dimen/marginLeftRight"
+            android:layout_marginRight="@dimen/marginLeftRight"
+            android:layout_marginTop="@dimen/marginTopBottom">
+
+            <!-- shopping category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tab">
+
+                <TextView
+                    android:id="@+id/shopping"
+                    style="@style/CategoryStyle"
+                    android:background="@color/colorAccent"
+                    android:text="@string/shopping" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/marginTopBottom"
+            android:layout_marginLeft="@dimen/marginLeftRight"
+            android:layout_marginRight="@dimen/marginLeftRight"
+            android:layout_marginTop="@dimen/marginTopBottom">
+
+            <!-- acitivity category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tab">
+
+                <TextView
+                    android:id="@+id/activities"
+                    style="@style/CategoryStyle"
+                    android:background="@color/colorAccent"
+                    android:text="@string/activities" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -15,14 +15,14 @@ public class ShoppingActivity extends AppCompatActivity {
 
         // Create a list of shopping place
         ArrayList<Informations> shopping = new ArrayList<Informations>();
-        shopping.add(new Informations(R.drawable.silvagni,"La Vecchia Faenza","Ceramiche Artistiche Laura Silvagni","Via S. Ippolito 23/a, 48018, Faenza, Italia","+39 0546 26357","http://www.lavecchiafaenza.it/"));
-        shopping.add(new Informations(R.drawable.gatti,"Ceramica Gatti 1928","","Via Pompignoli 4, 48018, Faenza, Italia","+39 0546 634301","http://www.ceramicagatti.it/"));
-        shopping.add(new Informations(R.drawable.vignoli,"Bottega Vignoli","Ceramic Laboratory & Show Room","Via Fermi 30, 48018, Faenza, Italia","+39 0546 621076","https://www.ceramichevignoli.com/"));
+        shopping.add(new Informations(R.drawable.silvagni,"La Vecchia Faenza","Ceramiche Artistiche Laura Silvagni","Via S. Ippolito 23/a","+39 0546 26357","http://www.lavecchiafaenza.it/"));
+        shopping.add(new Informations(R.drawable.gatti,"Ceramica Gatti 1928","","Via Pompignoli 4","+39 0546 634301","http://www.ceramicagatti.it/"));
+        shopping.add(new Informations(R.drawable.vignoli,"Bottega Vignoli","Ceramic Laboratory & Show Room","Via Fermi 30","+39 0546 621076","https://www.ceramichevignoli.com/"));
         shopping.add(new Informations(R.drawable.contadina,"La contadina di Romagna","","Via Emilia Ponente 59, Faenza, Italia","+39 347 358 8155",""));
-        shopping.add(new Informations(R.drawable.papadopulu,"Ceramiche Ifigenia Papadopulu","","Via Paolo Costa, 4, 48018, Faenza, Italia","+39 348 839 3757","http://ifigeniapapadopulu.com/"));
-        shopping.add(new Informations(R.drawable.parmigiano,"Casa del Parmigiano dal 1974","","Piazza Martiri della Liberta n. 28, 48018, Faenza, Italia","+39 0546 29770","http://www.casadelparmigianofaenza.it/"));
-        shopping.add(new Informations(R.drawable.chocolat,"Chocolat Passion","","Via Naviglio 30/A, 48018, Faenza, Italia","+39 0546 667595",""));
-        shopping.add(new Informations(R.drawable.bacchini,"Ceramiche Artistiche Bacchini Marianna","","Via Barilotti 3, 48018, Faenza, Italia","+39 0546 662563","http://www.ceramichefaenza.it/"));
+        shopping.add(new Informations(R.drawable.papadopulu,"Ceramiche Ifigenia Papadopulu","","Via Paolo Costa, 4","+39 348 839 3757","http://ifigeniapapadopulu.com/"));
+        shopping.add(new Informations(R.drawable.parmigiano,"Casa del Parmigiano dal 1974","","Piazza Martiri della Liberta n. 28","+39 0546 29770","http://www.casadelparmigianofaenza.it/"));
+        shopping.add(new Informations(R.drawable.chocolat,"Chocolat Passion","","Via Naviglio 30/A","+39 0546 667595",""));
+        shopping.add(new Informations(R.drawable.bacchini,"Ceramiche Artistiche Bacchini Marianna","","Via Barilotti 3","+39 0546 662563","http://www.ceramichefaenza.it/"));
 
         // Create an {@link Informations}, whose data source is a list of {@link Information}s. The
         // adapter knows how to create list items for each item in the list.

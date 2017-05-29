@@ -15,12 +15,12 @@ public class ActivitiesActivity extends AppCompatActivity {
 
         // Create a list of Activities
         ArrayList<Informations> activities = new ArrayList<Informations>();
-        activities.add(new Informations(R.drawable.viale,"Cafè Del Viale","","P.zza C. Battisti 1, 48018, Faenza, Italia","+39 0546 28346","http://www.cafedelviale.com/"));
-        activities.add(new Informations(R.drawable.spider, "Spider","","Via renaccio, 48018, Faenza, Italia","+39 0546 664963",""));
-        activities.add(new Informations(R.drawable.clandestino, "Clan Destino","","Viale Baccarini 23, 48018, Faenza, Italia","+39 0546 681327","http://clandestinoangusto.it/"));
-        activities.add(new Informations(R.drawable.caffe_delle_rose, "Caffè delle Rose","","Corso Giacomo Matteotti 25/A, 48018, Faenza, Italia","+39 0546 560711",""));
-        activities.add(new Informations(R.drawable.molinella, "Caffe Della Molinella","","Corso Giuseppe Mazzini 26, 48018, Faenza, Italia","+39 0546 28679",""));
-        activities.add(new Informations(R.drawable.giradischiclub, "Giradischi Club","","Viale Alfredo Baccarini 27, 48018, Faenza, Italia","+39 335 431 130","http://www.giradischiclub.it/"));
+        activities.add(new Informations(R.drawable.viale,"Cafè Del Viale","","P.zza C. Battisti 1","+39 0546 28346","http://www.cafedelviale.com/"));
+        activities.add(new Informations(R.drawable.spider, "Spider","","Via renaccio","+39 0546 664963",""));
+        activities.add(new Informations(R.drawable.clandestino, "Clan Destino","","Viale Baccarini 23","+39 0546 681327","http://clandestinoangusto.it/"));
+        activities.add(new Informations(R.drawable.caffe_delle_rose, "Caffè delle Rose","","Corso Giacomo Matteotti 25/A","+39 0546 560711",""));
+        activities.add(new Informations(R.drawable.molinella, "Caffe Della Molinella","","Corso Giuseppe Mazzini 26","+39 0546 28679",""));
+        activities.add(new Informations(R.drawable.giradischiclub, "Giradischi Club","","Viale Alfredo Baccarini 27","+39 335 431 130","http://www.giradischiclub.it/"));
 
         // Create an {@link Informations}, whose data source is a list of {@link Information}s. The
         // adapter knows how to create list items for each item in the list.

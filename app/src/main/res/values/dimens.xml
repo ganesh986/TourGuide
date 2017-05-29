@@ -12,6 +12,7 @@
     <!-- Text -->
     <dimen name="minHeight_Containers">90dp</dimen>
     <dimen name="padding_Text">8dp</dimen>
+    <dimen name="tab_text">20dp</dimen>
 
     <!-- Icons -->
     <dimen name="padding_Icons">4dp</dimen>
