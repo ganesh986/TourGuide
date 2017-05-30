@@ -4,5 +4,152 @@
     <string name="places">Places of interest</string>
     <string name="shopping">Shopping</string>
     <string name="activities">Nightlife</string>
+    <string name="empty"></string>
+
+    <!--Museum-->
+    <string name="Museum1">Museo Internazionale delle Ceramiche</string>
+    <string name="Museum2">Palazzo Milzetti</string>
+    <string name="Museum3">Pinacoteca Comunale di Faenza</string>
+    <string name="Museum4">Museo Carlo Zauli</string>
+    <string name="Museum5">Museo-Casa Bendandi</string>
+    <string name="Museum6">Ceramica Gatti 1928</string>
+    <string name="Museum7">Museo Diocesano</string>
+    <string name="Museum8">Palazzo Ladrechi</string>
+    <string name="Museum9">Museo Civico Di Scienze Naturali</string>
+    <string name="Museum10">Museo Tramonti Guerrino</string>
+    <string name="MusD2">Museo Nazionale dell\'età Neoclassica in Romagna</string>
+    <string name="MusD8">Museo del Risorgimento e dell\'Età Contemporanea</string>
+
+    <string name="MusV1">Viale Baccarini 19</string>
+    <string name="MusV2">Via Giulio Cesare Tonducci 15</string>
+    <string name="MusV3">Via Santa Maria Dell\'Angelo 9</string>
+    <string name="MusV4">Via della Croce 6</string>
+    <string name="MusV5">Via Baldassarre Manara 17</string>
+    <string name="MusV6">Via Pompignoli 4</string>
+    <string name="MusV7">Palazzo Vescovile</string>
+    <string name="MusV8">Corso Giuseppe Garibaldi 2</string>
+    <string name="MusV9">Via Medaglie d\'Oro 51</string>
+    <string name="MusV10">Via Fratelli Rosselli 8</string>
+
+    <string name="MusP1">+39 0546 697311</string>
+    <string name="MusP2">+39 0546 26493</string>
+    <string name="MusP3">+39 0546 680251</string>
+    <string name="MusP4">+39 0546 22123</string>
+    <string name="MusP5">+39 338 818 8688</string>
+    <string name="MusP6">+39 0546 634301</string>
+    <string name="MusP7">+39 0546 21642</string>
+    <string name="MusP8">+39 0546 691710</string>
+    <string name="MusP9">+39 3381600208</string>
+    <string name="MusP10">+39 392 301 1196</string>
+
+    <string name="MusW1">http://www.micfaenza.org/</string>
+    <string name="MusW2">https://palazzomilzetti.jimdo.com/</string>
+    <string name="MusW3">http://pinacotecafaenza.racine.ra.it/ita/contatti.htm</string>
+    <string name="MusW4">http://www.museozauli.it/</string>
+    <string name="MusW5">http://www.comune.faenza.ra.it/Citta/Da-vedere-in-citta/Pinacoteca-e-Musei/Museo-Casa-Bendandi-e-Osservatorio-geofisico-comunale</string>
+    <string name="MusW6">http://www.ceramicagatti.it/</string>
+    <string name="MusW7">http://www.comune.faenza.ra.it/Citta/Da-vedere-in-citta/Pinacoteca-e-Musei/Museo-Diocesano</string>
+    <string name="MusW8">http://www.comune.faenza.ra.it/Citta/Da-vedere-in-citta/Pinacoteca-e-Musei/Museo-del-Risorgimento-e-dell-Eta-Contemporanea</string>
+    <string name="MusW9">http://www.comune.faenza.ra.it/Citta/Da-vedere-in-citta/Pinacoteca-e-Musei/Museo-Civico-di-Scienze-Naturali</string>
+    <string name="MusW10">http://www.tramontiguerrino.it/</string>
+
+    <!--Shopping-->
+    <string name="Shopping1">La Vecchia Faenza</string>
+    <string name="Shopping2">Ceramica Gatti 1928</string>
+    <string name="Shopping3">Bottega Vignoli</string>
+    <string name="Shopping4">La contadina di Romagna</string>
+    <string name="Shopping5">Ceramiche Ifigenia Papadopulu</string>
+    <string name="Shopping6">Casa del Parmigiano dal 1974</string>
+    <string name="Shopping7">Chocolat Passion</string>
+    <string name="Shopping8">Ceramiche Artistiche Bacchini Marianna</string>
+
+    <string name="ShopD1">Ceramiche Artistiche Laura Silvagni</string>
+    <string name="ShopD3">Ceramic Laboratory and Show Room</string>
+
+    <string name="ShopV1">Via S. Ippolito 23/a</string>
+    <string name="ShopV2">Via Pompignoli 4</string>
+    <string name="ShopV3">Via Fermi 30</string>
+    <string name="ShopV4">Via Emilia Ponente 59</string>
+    <string name="ShopV5">Via Paolo Costa, 4</string>
+    <string name="ShopV6">Piazza Martiri della Liberta n. 28</string>
+    <string name="ShopV7">Via Naviglio 30/A</string>
+    <string name="ShopV8">Via Barilotti 3</string>
+
+    <string name="ShopP1">+39 0546 26357</string>
+    <string name="ShopP2">+39 0546 634301</string>
+    <string name="ShopP3">+39 0546 621076</string>
+    <string name="ShopP4">+39 347 358 8155</string>
+    <string name="ShopP5">+39 348 839 3757</string>
+    <string name="ShopP6">+39 0546 29770</string>
+    <string name="ShopP7">+39 0546 667595</string>
+    <string name="ShopP8">+39 0546 662563</string>
+
+    <string name="ShopW1">http://www.lavecchiafaenza.it/</string>
+    <string name="ShopW2">http://www.ceramicagatti.it/</string>
+    <string name="ShopW3">https://www.ceramichevignoli.com/</string>
+    <string name="ShopW5">http://ifigeniapapadopulu.com/</string>
+    <string name="ShopW6">http://www.casadelparmigianofaenza.it/</string>
+    <string name="ShopW8">http://www.ceramichefaenza.it/</string>
+
+    <!--Places-->
+    <string name="Places1">Piazza del Popolo</string>
+    <string name="Places2">Torre di Oriolo</string>
+    <string name="Places3">Fontana di Piazza della Libertà</string>
+    <string name="Places4">Duomo di Faenza</string>
+    <string name="Places5">Torre dell\'Orologio</string>
+    <string name="Places6">Teatro Comunale A. Masini</string>
+    <string name="Places7">Chiesa Della Commenda</string>
+    <string name="Places8">Apicoltura Lombardi</string>
+
+    <string name="PlaD1"></string>
+    <string name="PlaD3"></string>
+
+    <string name="PlaV1">Piazza del Popolo</string>
+    <string name="PlaV2">Oriolo</string>
+    <string name="PlaV3">Piazza della Libertà</string>
+    <string name="PlaV4">Piazza Undici Febbraio 9</string>
+    <string name="PlaV5">Piazza Del Popolo</string>
+    <string name="PlaV6">Piazza Nenni</string>
+    <string name="PlaV7">Corso Europa, 107</string>
+    <string name="PlaV8">Via Mercanta 11/B</string>
+
+    <string name="PlaP2">+39 0546 25231</string>
+    <string name="PlaP4">+39 0546 664510</string>
+    <string name="PlaP6">+39 0546 21306</string>
+    <string name="PlaP8">+39 0546 47155</string>
+
+    <string name="PlaW2">http://www.torredioriolo.it/</string>
+    <string name="PlaW3">http://www.comune.faenza.ra.it/Amministrazione/Comunicati-stampa/La-Fontana-monumentale-di-Faenza</string>
+    <string name="PlaW6">http://teatromasini.racine.ra.it/homemasini.html</string>
+    <string name="PlaW8">http://www.mielelombardi.it/</string>
+
+    <!--Activities-->
+    <string name="Activities1">Cafè Del Viale</string>
+    <string name="Activities2">Spider</string>
+    <string name="Activities3">Clan Destino</string>
+    <string name="Activities4">Caffè delle Rose</string>
+    <string name="Activities5">Caffe Della Molinella</string>
+    <string name="Activities6">Giradischi Club</string>
+
+    <string name="ActiD2"></string>
+    <string name="ActiD8"></string>
+
+    <string name="ActiV1">P.zza C. Battisti 1</string>
+    <string name="ActiV2">Via renaccio</string>
+    <string name="ActiV3">Viale Baccarini 23</string>
+    <string name="ActiV4">Corso Giacomo Matteotti 25/A</string>
+    <string name="ActiV5">Corso Giuseppe Mazzini 26</string>
+    <string name="ActiV6">Viale Alfredo Baccarini 27</string>
+
+    <string name="ActiP1">+39 0546 28346</string>
+    <string name="ActiP2">+39 0546 664963</string>
+    <string name="ActiP3">+39 0546 681327</string>
+    <string name="ActiP4">+39 0546 560711</string>
+    <string name="ActiP5">+39 0546 28679</string>
+    <string name="ActiP6">+39 335 431 130</string>
+
+    <string name="ActiW1">http://www.cafedelviale.com/</string>
+    <string name="ActiW3">http://clandestinoangusto.it/</string>
+    <string name="ActiW6">http://www.giradischiclub.it/</string>
 
 </resources>

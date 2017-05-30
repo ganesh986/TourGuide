@@ -15,14 +15,14 @@ public class ShoppingActivity extends AppCompatActivity {
 
         // Create a list of shopping place
         ArrayList<Informations> shopping = new ArrayList<Informations>();
-        shopping.add(new Informations(R.drawable.silvagni,"La Vecchia Faenza","Ceramiche Artistiche Laura Silvagni","Via S. Ippolito 23/a","+39 0546 26357","http://www.lavecchiafaenza.it/"));
-        shopping.add(new Informations(R.drawable.gatti,"Ceramica Gatti 1928","","Via Pompignoli 4","+39 0546 634301","http://www.ceramicagatti.it/"));
-        shopping.add(new Informations(R.drawable.vignoli,"Bottega Vignoli","Ceramic Laboratory & Show Room","Via Fermi 30","+39 0546 621076","https://www.ceramichevignoli.com/"));
-        shopping.add(new Informations(R.drawable.contadina,"La contadina di Romagna","","Via Emilia Ponente 59, Faenza, Italia","+39 347 358 8155",""));
-        shopping.add(new Informations(R.drawable.papadopulu,"Ceramiche Ifigenia Papadopulu","","Via Paolo Costa, 4","+39 348 839 3757","http://ifigeniapapadopulu.com/"));
-        shopping.add(new Informations(R.drawable.parmigiano,"Casa del Parmigiano dal 1974","","Piazza Martiri della Liberta n. 28","+39 0546 29770","http://www.casadelparmigianofaenza.it/"));
-        shopping.add(new Informations(R.drawable.chocolat,"Chocolat Passion","","Via Naviglio 30/A","+39 0546 667595",""));
-        shopping.add(new Informations(R.drawable.bacchini,"Ceramiche Artistiche Bacchini Marianna","","Via Barilotti 3","+39 0546 662563","http://www.ceramichefaenza.it/"));
+        shopping.add(new Informations(R.drawable.silvagni,R.string.Shopping1,R.string.ShopD1,R.string.ShopV1,R.string.ShopP1,R.string.ShopW1));
+        shopping.add(new Informations(R.drawable.gatti,R.string.Shopping2,R.string.Shopping1,R.string.ShopV2,R.string.ShopP2,R.string.ShopW2));
+        shopping.add(new Informations(R.drawable.vignoli,R.string.Shopping3,R.string.ShopD3,R.string.ShopV3,R.string.ShopP3,R.string.ShopW3));
+        shopping.add(new Informations(R.drawable.contadina,R.string.Shopping4,R.string.empty,R.string.ShopV4,R.string.ShopP4,R.string.empty));
+        shopping.add(new Informations(R.drawable.papadopulu,R.string.Shopping5,R.string.empty,R.string.ShopV5,R.string.ShopP5,R.string.ShopW5));
+        shopping.add(new Informations(R.drawable.parmigiano,R.string.Shopping6,R.string.empty,R.string.ShopV6,R.string.ShopP6,R.string.ShopW6));
+        shopping.add(new Informations(R.drawable.chocolat,R.string.Shopping7,R.string.empty,R.string.ShopV7,R.string.ShopP7,R.string.empty));
+        shopping.add(new Informations(R.drawable.bacchini,R.string.Shopping8,R.string.empty,R.string.ShopV8,R.string.ShopP8,R.string.ShopW8));
 
         // Create an {@link Informations}, whose data source is a list of {@link Information}s. The
         // adapter knows how to create list items for each item in the list.

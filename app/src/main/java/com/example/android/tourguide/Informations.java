@@ -12,19 +12,19 @@ public class Informations {
     private int mImageResourceId;
 
     /** Place title */
-    private String mPlaceTitle;
+    private int mPlaceTitle;
 
     /** Place description */
-    private String mPlaceDescription;
+    private int mPlaceDescription;
 
     /** Place address */
-    private String mPlaceAddress;
+    private int mPlaceAddress;
 
     /** Place phone number */
-    private String mPlacePhone;
+    private int mPlacePhone;
 
     /** Place website address */
-    private String mPlaceWebsite;
+    private int mPlaceWebsite;
 
     /**
      * Create a new Word object.
@@ -36,8 +36,8 @@ public class Informations {
      * @param placePhone is the phone number of the place
      * @param placeWeb is the website address of the place
      */
-    public Informations(int imageResourceId, String placeTitle, String placeDescription,String placeAddress, String placePhone,
-                        String placeWeb) {
+    public Informations(int imageResourceId, int placeTitle, int placeDescription,int placeAddress, int placePhone,
+                        int placeWeb) {
         mImageResourceId = imageResourceId;
         mPlaceTitle = placeTitle;
         mPlaceDescription = placeDescription;
@@ -57,14 +57,14 @@ public class Informations {
     /**
      * Return the place name string.
      */
-    public String getPlaceTitle() {
+    public int getPlaceTitle() {
         return mPlaceTitle;
     }
 
     /**
      * Return the place description string.
      */
-    public String getPlaceDescription() {
+    public int getPlaceDescription() {
 
         return mPlaceDescription;
     }
@@ -72,7 +72,7 @@ public class Informations {
     /**
      * Return the place address string.
      */
-    public String getPlaceAddress() {
+    public int getPlaceAddress() {
 
         return mPlaceAddress;
     }
@@ -80,7 +80,7 @@ public class Informations {
     /**
      * Return the place phone string.
      */
-    public String getPlacePhone() {
+    public int getPlacePhone() {
 
         return mPlacePhone;
     }
@@ -88,7 +88,7 @@ public class Informations {
     /**
      * Return the place phone string.
      */
-    public String getPlaceWeb() {
+    public int getPlaceWeb() {
 
         return mPlaceWebsite;
     }

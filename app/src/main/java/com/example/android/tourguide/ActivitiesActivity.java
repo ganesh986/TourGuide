@@ -15,12 +15,12 @@ public class ActivitiesActivity extends AppCompatActivity {
 
         // Create a list of Activities
         ArrayList<Informations> activities = new ArrayList<Informations>();
-        activities.add(new Informations(R.drawable.viale,"Cafè Del Viale","","P.zza C. Battisti 1","+39 0546 28346","http://www.cafedelviale.com/"));
-        activities.add(new Informations(R.drawable.spider, "Spider","","Via renaccio","+39 0546 664963",""));
-        activities.add(new Informations(R.drawable.clandestino, "Clan Destino","","Viale Baccarini 23","+39 0546 681327","http://clandestinoangusto.it/"));
-        activities.add(new Informations(R.drawable.caffe_delle_rose, "Caffè delle Rose","","Corso Giacomo Matteotti 25/A","+39 0546 560711",""));
-        activities.add(new Informations(R.drawable.molinella, "Caffe Della Molinella","","Corso Giuseppe Mazzini 26","+39 0546 28679",""));
-        activities.add(new Informations(R.drawable.giradischiclub, "Giradischi Club","","Viale Alfredo Baccarini 27","+39 335 431 130","http://www.giradischiclub.it/"));
+        activities.add(new Informations(R.drawable.viale,R.string.Activities1,R.string.empty,R.string.ActiV1,R.string.ActiP1,R.string.ActiW1));
+        activities.add(new Informations(R.drawable.spider, R.string.Activities2,R.string.empty,R.string.ActiV2,R.string.ActiP2,R.string.empty));
+        activities.add(new Informations(R.drawable.clandestino, R.string.Activities3,R.string.empty,R.string.ActiV3,R.string.ActiP3,R.string.ActiW3));
+        activities.add(new Informations(R.drawable.caffe_delle_rose, R.string.Activities4,R.string.empty,R.string.ActiV4,R.string.ActiP4,R.string.empty));
+        activities.add(new Informations(R.drawable.molinella, R.string.Activities5,R.string.empty,R.string.ActiV5,R.string.ActiP5,R.string.empty));
+        activities.add(new Informations(R.drawable.giradischiclub, R.string.Activities6,R.string.empty,R.string.ActiV6,R.string.ActiP6,R.string.ActiW6));
 
         // Create an {@link Informations}, whose data source is a list of {@link Information}s. The
         // adapter knows how to create list items for each item in the list.
